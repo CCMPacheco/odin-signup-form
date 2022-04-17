@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "Norse-bold";
+  src: url("./fonts/norse-bold-webfont.woff") format("woff");
+  src: url("./fonts/norse-bold-webfont.woff2") format("woff2");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
