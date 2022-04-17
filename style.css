@@ -1,3 +1,12 @@
+:root {
+  --main-bg-color: hsl(210deg, 20%, 98%);
+  --form-bg-color: hsl(0deg, 0%, 100%);
+  --green-accent-color: hsl(92deg, 20%, 35%);
+  --invalid-input-color: hsl(0deg, 74%, 42%);
+  --focus-input-color: hsl(224deg, 76%, 48%);
+  --border-input-color: hsl(220deg, 13%, 91%);
+}
+
 @font-face {
   font-family: "Norse-bold";
   src: url("./fonts/norse-bold-webfont.woff") format("woff");
