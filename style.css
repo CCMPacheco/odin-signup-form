@@ -83,8 +83,8 @@ footer {
 }
 
 .info-header {
-  height: 20vh;
-  padding: 20px;
+  height: 30vh;
+  padding: 40px 20px 40px 5vw;
   display: flex;
   flex-direction: column;
   justify-content: end;
@@ -96,14 +96,72 @@ footer {
 }
 
 .info-content {
-  height: 60vh;
+  height: 44vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info-content > p {
   background-color: var(--form-bg-color);
-  padding: 20px;
+  font-weight: bold;
+  padding: 20px 20px 20px 5vw;
+}
+
+.grid-form {
+  background-color: var(--form-bg-color);
+  display: grid;
+  grid-template-columns: repeat(2, 200px);
+  grid-template-rows: repeat(3, auto);
+  row-gap: 20px;
+  column-gap: 40px;
+  padding: 0 20px 40px 5vw;
+}
+
+.grid-square {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 0.8rem;
+  margin-bottom: 5px;
+}
+
+input {
+  outline: none;
+  border: 1px solid var(--border-input-color);
+  border-radius: 4px;
+  font-size: 1rem;
+  padding: 4px;
+}
+
+input:invalid {
+  border: 1px solid var(--invalid-input-color);
+}
+
+input:focus {
+  border: 1px solid var(--focus-input-color);
+}
+
+.btn-container {
+  background-color: var(--main-bg-color);
+  padding: 20px 20px 20px 5vw;
+}
+
+button {
+  border: none;
+  background-color: var(--green-accent-color);
+  font-size: 1rem;
+  color: var(--light-font-color);
+  padding: 12px 32px;
+  border-radius: 8px;
+  cursor: pointer;
 }
 
 .info-login {
   height: 20vh;
-  padding: 20px;
+  padding: 20px 20px 20px 5vw;
 }
 
 .info-login > a {
