@@ -15,6 +15,8 @@
   font-family: "Norse-bold";
   src: url("./fonts/norse-bold-webfont.woff") format("woff");
   src: url("./fonts/norse-bold-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
 }
 
 * {
@@ -60,10 +62,6 @@ body {
   padding: 10px;
 }
 
-.main-content {
-  min-width: 60vw;
-}
-
 .logo-image {
   width: 100px;
 }
@@ -71,4 +69,45 @@ body {
 .logo-title {
   font-family: "Norse-bold", sans-serif;
   font-size: 6rem;
+}
+
+footer {
+  opacity: 0.6;
+}
+
+.info-section {
+  min-width: 60vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info-header {
+  height: 20vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  font-weight: bold;
+  gap: 1rem;
+  word-wrap: break-word;
+  word-break: keep-all;
+  width: 59ch;
+}
+
+.info-content {
+  height: 60vh;
+  background-color: var(--form-bg-color);
+  padding: 20px;
+}
+
+.info-login {
+  height: 20vh;
+  padding: 20px;
+}
+
+.info-login > a {
+  font-weight: bold;
+  color: var(--green-accent-color);
+  text-decoration: none;
 }
